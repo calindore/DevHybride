@@ -1,0 +1,41 @@
+######### Index.html
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les savoirs inutiles</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div id="divSaisie">
+        <div>
+            <label for="libelleSavoir">Savoir:</label>
+            <input type="text" id="texte" />
+        </div>
+
+        <div>
+            <label for="libelleAuteur">Auteur:</label>
+            <input type="text" id="auteur" />
+        </div>
+
+        <div>
+            <label for="ladate">Date:</label>
+            <input type="date" id="ladate" />
+        </div>
+
+        <div>
+            <button onclick="ajouter()">Ajouter</button>
+        </div>
+    </div>
+
+    <div id="divResultat">
+        <ol id="olListeSavoir">
+
+        </ol>
+    </div>
+
+<script src="main.js" type="application/javascript"></script>
+</body>
+</html>
